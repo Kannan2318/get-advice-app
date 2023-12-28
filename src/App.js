@@ -19,7 +19,7 @@ export default function App() {
     <div className="container">
       <div className="get-advice-box">
         <h1>{advice}</h1>
-        <button className="btn" onClick={getAdvice}>Get Advice</button>
+        <button className="btn" onClick={getAdvice}>Get Advice!</button>
         <Message count={count} />
       </div>
     </div>
