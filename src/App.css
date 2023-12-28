@@ -1,3 +1,10 @@
+body{
+  background-color: #b9f0ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 .App {
   text-align: center;
 }
@@ -36,3 +43,27 @@
     transform: rotate(360deg);
   }
 }
+.App{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.btn{
+  background-color: #222222;
+  color:#ffffff;
+  padding: 12px 20px;
+  border-radius:4px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+}
+
+.get-advice-box{
+  width: 768px;
+  /* max-width: 768px; */
+  min-width: 425px;
+  padding: 50px;
+  background-color: #f5fdff;
+  border: 3.5px dashed #cccccc;
+  text-align: center;
+}
+
