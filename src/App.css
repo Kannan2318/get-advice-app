@@ -55,6 +55,13 @@ body{
   border-radius:4px;
   font-weight: 700;
   letter-spacing: 1.2px;
+  cursor: pointer;
+  border: 1px solid #222222;
+}
+
+.btn:hover{
+  background-color: #ffffff;
+  color:#222222;
 }
 
 .get-advice-box{
